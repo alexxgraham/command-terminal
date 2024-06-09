@@ -8,13 +8,28 @@ importers:
 
   .:
     dependencies:
+      '@ag108/ct-datetime_libs':
+        specifier: ^1.0.2
+        version: 1.0.2(@types/node@20.14.2)
+      '@ag108/ct-filesys_libs':
+        specifier: ^1.0.2
+        version: 1.0.2(@types/node@20.14.2)
+      '@ag108/ct-math_libs':
+        specifier: ^1.0.5
+        version: 1.0.5(@types/node@20.14.2)
+      '@ag108/ct-symbols_libs':
+        specifier: ^1.0.2
+        version: 1.0.2(@types/node@20.14.2)
+      '@ag108/ct-txtpaint_libs':
+        specifier: ^1.0.2
+        version: 1.0.2(@types/node@20.14.2)
+      '@ag108/ct-utils':
+        specifier: ^1.0.4
+        version: 1.0.4
       '@types/node':
         specifier: ^20.14.2
         version: 20.14.2
     devDependencies:
-      '@ag108/ct-utils':
-        specifier: ^1.0.0
-        version: 1.0.0
       '@changesets/cli':
         specifier: ^2.27.5
         version: 2.27.5
@@ -42,8 +57,33 @@ importers:
 
 packages:
 
-  '@ag108/ct-utils@1.0.0':
-    resolution: {integrity: sha512-w8F5gcgS6/f0kh9mvxeWK1/nyuCOGxvNomB+VJkZWfVWFFkwVOwJhL3QcNg8UiG2NYDyVxXcP+07qYzOBQaFuw==}
+  '@ag108/ct-datetime_libs@1.0.2':
+    resolution: {integrity: sha512-AIt/q1G+aLVnAbU79zvQdnjqDTCsYaQsIoook1MiTrS0meP5v7eUVRKmkSHfzGMP1Z9ONZ4onV46vMVCQQCnhg==}
+    peerDependencies:
+      '@types/node': ^20.14.2
+
+  '@ag108/ct-filesys_libs@1.0.2':
+    resolution: {integrity: sha512-U8NG1+e9O7kYr1Ee0dYdsxeCGLifyYlkHwo86JTd7lkirILV1W7SJJ7WrLvMg2yOJl9XmdZBEHKH6o0W7u7QKg==}
+    peerDependencies:
+      '@types/node': ^20.14.2
+
+  '@ag108/ct-math_libs@1.0.5':
+    resolution: {integrity: sha512-H9HKmH8MIZFsjqIhaYD7IvgbUzOd764jEjhZT6ncGmNfHAROMJXt/EpiyZ0qpQcuO4gzIxglYydJlJiXoL5CPQ==}
+    peerDependencies:
+      '@types/node': ^20.14.2
+
+  '@ag108/ct-symbols_libs@1.0.2':
+    resolution: {integrity: sha512-e8ZZifcQGumqBZvftUyAIJXgehn/gvFESK+8xxnr4mCgHr1G7i+CNlkWAsFuv4+3c5+oqU22nvjl7DJuY0DgXA==}
+    peerDependencies:
+      '@types/node': ^20.14.2
+
+  '@ag108/ct-txtpaint_libs@1.0.2':
+    resolution: {integrity: sha512-6wevHfXQtqm5+VMXSCPIRnSTnNI+c4siv4hYlrqXIotgD3oB+dPa0jjAJDhK3NrB0lYxfNqOgm4vaMxmiprHUw==}
+    peerDependencies:
+      '@types/node': ^20.14.2
+
+  '@ag108/ct-utils@1.0.4':
+    resolution: {integrity: sha512-V8t7zk9B0DaWhyjtMhbtvi2VL8vL4bBboIhPhJKMNdhT0Fkuj2709IEfin5PHDur9anWhO9qFwIILiKolQ7cJw==}
 
   '@babel/code-frame@7.24.7':
     resolution: {integrity: sha512-BcYH1CVJBO9tvyIZ2jVeXgSIMvGZ2FDRvDdOIVQyuklNKSsx+eppDEBq/g47Ayw+RqNFE+URvOShmf+f/qwAlA==}
@@ -1697,7 +1737,32 @@ packages:
 
 snapshots:
 
-  '@ag108/ct-utils@1.0.0': {}
+  '@ag108/ct-datetime_libs@1.0.2(@types/node@20.14.2)':
+    dependencies:
+      '@ag108/ct-utils': 1.0.4
+      '@types/node': 20.14.2
+
+  '@ag108/ct-filesys_libs@1.0.2(@types/node@20.14.2)':
+    dependencies:
+      '@ag108/ct-utils': 1.0.4
+      '@types/node': 20.14.2
+
+  '@ag108/ct-math_libs@1.0.5(@types/node@20.14.2)':
+    dependencies:
+      '@ag108/ct-utils': 1.0.4
+      '@types/node': 20.14.2
+
+  '@ag108/ct-symbols_libs@1.0.2(@types/node@20.14.2)':
+    dependencies:
+      '@ag108/ct-utils': 1.0.4
+      '@types/node': 20.14.2
+
+  '@ag108/ct-txtpaint_libs@1.0.2(@types/node@20.14.2)':
+    dependencies:
+      '@ag108/ct-utils': 1.0.4
+      '@types/node': 20.14.2
+
+  '@ag108/ct-utils@1.0.4': {}
 
   '@babel/code-frame@7.24.7':
     dependencies:

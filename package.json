@@ -11,6 +11,11 @@
     "release": "pnpm run build && pnpm run lint && changeset publish"
   },
   "dependencies": {
+    "@ag108/ct-datetime_libs": "^1.0.2",
+    "@ag108/ct-filesys_libs": "^1.0.2",
+    "@ag108/ct-math_libs": "^1.0.5",
+    "@ag108/ct-symbols_libs": "^1.0.2",
+    "@ag108/ct-txtpaint_libs": "^1.0.2",
     "@ag108/ct-utils": "^1.0.4"
   },
   "devDependencies": {
