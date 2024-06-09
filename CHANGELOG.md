@@ -1,5 +1,11 @@
 # @ag108/command-terminal
 
+## 1.0.3
+
+### Patch Changes
+
+- 4a7e8a0: fix: "missing ('react' / 'react-dom') dependency vs devDependency"
+
 ## 1.0.2
 
 ### Patch Changes
