@@ -1,5 +1,11 @@
 # @ag108/command-terminal
 
+## 1.0.4
+
+### Patch Changes
+
+- 189e9f2: introduced ct-util stylesheets
+
 ## 1.0.3
 
 ### Patch Changes
