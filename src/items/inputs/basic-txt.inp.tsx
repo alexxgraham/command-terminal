@@ -1,21 +1,7 @@
-import { cn } from "@ag108/ct-utils";
+import { cn } from '@ag108/ct-utils';
 
-import { TextInputField } from "types/main";
+import { TextInputField } from 'types/main';
 
-export const TextInput = ({
-  placeholder,
-  autoFocus = false,
-  specialClass,
-}: TextInputField) => {
-  return (
-    <input
-      autoFocus={autoFocus}
-      className={cn(
-        specialClass,
-        "outline-none cursor-text bg-transparent w-full placeholder:italic placeholder:text-[#AAAAAA] caret-[#AAAAAA] text-white text-base",
-      )}
-      type="text"
-      placeholder={placeholder}
-    />
-  );
+export const TextInput = ({ placeholder, autoFocus = false }: TextInputField) => {
+	return <input autoFocus={autoFocus} className={cn('ct-utils_outline-none', 'ct-utils_cursor-text', 'ct-utils_bg-transparent', 'ct-utils_w-full', 'ct-utils_placeholder italic', 'ct-utils_placeholder text-muted', 'ct-utils_caret text-muted', 'ct-utils_text-accent', 'ct-utils_base-text')} type='text' placeholder={placeholder} />;
 };

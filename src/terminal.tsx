@@ -1,11 +1,12 @@
-import { CommandMenu, ProfileHub, SearchBar } from "./items/_main.itm"
+import { cn } from '@ag108/ct-utils';
+import { CommandMenu, ProfileHub, SearchBar } from './items/_main.itm';
 
 export const Terminal = () => {
-    return (
-        <section className="shrink-0 bg-secondary w-60 h-12 rounded-3xl flex justify-center items-center gap-6">
-          <CommandMenu />
-          <ProfileHub />
-          <SearchBar />
-        </section>
-    )
-}
+	return (
+		<section className={cn('ct-utils_shrink-0', 'ct-utils_bg-secondary', 'ct-utils_w-15rem', 'ct-utils_h-2-5rem', 'ct-utils_rounded-3xl', 'ct-utils_flex', 'ct-utils_justify-center', 'ct-utils_items-center', 'ct-utils_gap-6')}>
+			<CommandMenu />
+			<ProfileHub />
+			<SearchBar />
+		</section>
+	);
+};

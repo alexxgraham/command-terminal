@@ -1,48 +1,94 @@
-import { PackageItems } from '@ag108/ct-utils/types/main'
-import { TabDispatchAction } from '@ag108/ct-utils/types/dispatch'
+import { PackageItems } from '@ag108/ct-utils/types/main';
+import { TabDispatchAction } from '@ag108/ct-utils/types/dispatch';
 
-import { CommandListButton } from '@ag108/ct-utils';
+import { cn, CommandListButton } from '@ag108/ct-utils';
+import { UtilClassValues } from '@ag108/ct-utils/types/styles';
 
-const packages: PackageItems[] = [ 
+const packages: PackageItems[] = [
 	{
 		singleOpt: 'math',
 		kind: 'single',
-		singleClass: 'hover:text-[#5555FF]',
+		singleClass: 'ct-utils_hover text-light_blue',
+		doubleClass: {
+			main: 'ct-utils_hidden',
+			secondary: 'ct-utils_hidden',
+		},
+		multiClass: {
+			main: 'ct-utils_hidden',
+			secondary: 'ct-utils_hidden',
+			colors: 'ct-utils_hidden',
+		},
 	},
 	{
 		doubleOpt: 'datetime',
 		doubleName: ['date', 'time'],
 		kind: 'double',
-		doubleClass: ['group uppercase hover:text-[#00AAAA] outline-none', 'group-hover:underline cursor-pointer'],
+		singleClass: 'ct-utils_hidden',
+		doubleClass: {
+			main: ['ct-utils_uppercase', 'ct-utils_hover text-cyan', 'ct-utils_outline-none'],
+			secondary: ['ct-utils_hover underline', 'ct-utils_cursor-pointer'],
+		},
+		multiClass: {
+			main: 'ct-utils_hidden',
+			secondary: 'ct-utils_hidden',
+			colors: 'ct-utils_hidden',
+		},
 	},
 	{
 		name: 'attachments',
 		singleOpt: 'filesys',
 		kind: 'single',
-		singleClass: 'hover:text-[#AA0000]',
+		singleClass: 'ct-utils_hover text-red',
+		doubleClass: {
+			main: 'ct-utils_hidden',
+			secondary: 'ct-utils_hidden',
+		},
+		multiClass: {
+			main: 'ct-utils_hidden',
+			secondary: 'ct-utils_hidden',
+			colors: 'ct-utils_hidden',
+		},
 	},
 	{
 		name: 'txtpaint',
 		kind: 'multi',
-		multiClass: ['group uppercase outline-none', 'group-hover:underline hover:cursor-pointer', ['group-hover:text-[#FF5555]', 'group-hover:text-[#FFEE00]', 'group-hover:text-[#33FF33]', 'group-hover:text-[#55FFFF]', 'group-hover:text-[#5555FF]', 'group-hover:text-[#FF55FF]']],
+		singleClass: 'ct-utils_hidden',
+		doubleClass: {
+			main: 'ct-utils_hidden',
+			secondary: 'ct-utils_hidden',
+		},
+		multiClass: {
+			main: ['ct-utils_uppercase', 'ct-utils_outline-none'],
+			secondary: ['ct-utils_hover underline', 'ct-utils_cursor-pointer'],
+			colors: 'ct-utils_hover ct-utils_text-colors',
+		},
 	},
 	{
 		doubleOpt: 'symbols',
 		doubleName: ['symbol', 'emoticon'],
 		kind: 'double',
-		doubleClass: ['group uppercase hover:text-[#FFEE00] outline-none', 'group-hover:underline cursor-pointer'],
+		singleClass: 'ct-utils_hidden',
+		doubleClass: {
+			main: ['ct-utils_uppercase', 'ct-utils_hover text-yellow', 'ct-utils_outline-none'],
+			secondary: ['ct-utils_hover underline', 'ct-utils_cursor-pointer'],
+		},
+		multiClass: {
+			main: 'ct-utils_hidden',
+			secondary: 'ct-utils_hidden',
+			colors: 'ct-utils_hidden',
+		},
 	},
-]
+];
 
-export const IndexMain = ({hoverClass, setTab}: {hoverClass: string; setTab: TabDispatchAction;}) => {
+export const IndexMain = ({ hoverClass, setTab }: { hoverClass: UtilClassValues; setTab: TabDispatchAction }) => {
 	return (
-		<article className='flex flex-col pt-2'>
-			<p className='text-accent uppercase'>categories:</p>
+		<article className={cn('ct-utils_flex', 'ct-utils_flex-column', 'ct-utils_pad-top-2')}>
+			<p className={cn('ct-utils_text-accent', 'ct-utils_uppercase')}>categories:</p>
 			<ol className='flex flex-col px-4 items-start'>
 				{packages.map((pkg, i) => (
 					<CommandListButton key={i + 1} index={i + 1} pkgStuff={pkg} hoverClass={hoverClass} setTab={setTab} />
 				))}
 			</ol>
 		</article>
-	)
-}
+	);
+};
