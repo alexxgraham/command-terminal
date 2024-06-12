@@ -1,5 +1,11 @@
 # @ag108/command-terminal
 
+## 1.0.5
+
+### Patch Changes
+
+- 7d0e747: addressed some missing css classes & errors
+
 ## 1.0.4
 
 ### Patch Changes
