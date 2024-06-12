@@ -16,7 +16,7 @@
 		"@ag108/ct-math_libs": "^1.0.5",
 		"@ag108/ct-symbols_libs": "^1.0.2",
 		"@ag108/ct-txtpaint_libs": "^1.0.2",
-		"@ag108/ct-utils": "^1.0.16",
+		"@ag108/ct-utils": "^1.0.17",
 		"react": "^18.3.1",
 		"react-dom": "^18.3.1"
 	},
