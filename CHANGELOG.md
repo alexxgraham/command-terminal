@@ -1,5 +1,11 @@
 # @ag108/command-terminal
 
+## 1.0.6
+
+### Patch Changes
+
+- 6d43dea: update to 1.0.17 utils for fixed styles
+
 ## 1.0.5
 
 ### Patch Changes
