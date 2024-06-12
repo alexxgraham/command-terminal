@@ -1,5 +1,11 @@
 # @ag108/command-terminal
 
+## 1.0.7
+
+### Patch Changes
+
+- c72989f: should have fixed some minor styling issues for the IndexMain component
+
 ## 1.0.6
 
 ### Patch Changes
