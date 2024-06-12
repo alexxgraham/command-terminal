@@ -1,5 +1,11 @@
 # @ag108/command-terminal
 
+## 1.0.8
+
+### Patch Changes
+
+- 28721fe: should have fixed some minor issues with style.d.ts type exports
+
 ## 1.0.7
 
 ### Patch Changes
