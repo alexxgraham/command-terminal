@@ -1,16 +1,10 @@
-import { DispatchAction } from "@ag108/ct-utils/types/dispatch";
+import { cn } from '@ag108/ct-utils';
+import { DispatchAction } from '@ag108/ct-utils/types/dispatch';
 
-export const CloseButton = ({
-  setOpen,
-}: {
-  setOpen: DispatchAction<boolean>;
-}) => {
-  return (
-    <button
-      onClick={() => setOpen(false)}
-      className="outline-none hover:text-destructive"
-    >
-      X
-    </button>
-  );
+export const CloseButton = ({ setOpen }: { setOpen: DispatchAction<boolean> }) => {
+	return (
+		<button onClick={() => setOpen(false)} className={cn('ct-utils_outline-none', 'ct-utils_hover text-destructive')}>
+			X
+		</button>
+	);
 };
