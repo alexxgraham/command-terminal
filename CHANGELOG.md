@@ -1,5 +1,11 @@
 # @ag108/command-terminal
 
+## 1.0.16
+
+### Patch Changes
+
+- ad8319d: IndexMain packages reformat to match PackageItems[] type (ct-utils)
+
 ## 1.0.15
 
 ### Patch Changes
