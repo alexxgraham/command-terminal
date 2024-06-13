@@ -1,5 +1,13 @@
 # @ag108/command-terminal
 
+## 1.0.9
+
+### Patch Changes
+
+- 2a47d37: added flex & gap-x classes to hoverCheatClass for CommandMenuPopup for more optimal <li> class injection
+- 2a47d37: updated ct-\*\_libs to latest versions with support for ct-utils stylesheets and class name/type values
+- 2a47d37: fixed text-red -> text-colors class for multi colored list item in `ct` (home) menu
+
 ## 1.0.8
 
 ### Patch Changes
