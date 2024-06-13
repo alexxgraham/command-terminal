@@ -1,5 +1,11 @@
 # @ag108/command-terminal
 
+## 1.0.12
+
+### Patch Changes
+
+- d1f9b55: update to lts ct-utils
+
 ## 1.0.11
 
 ### Patch Changes
