@@ -78,7 +78,7 @@ const packages: PackageItems[] = [
 export const IndexMain = ({ hoverClass, setTab }: { hoverClass: UtilClassValues; setTab: TabDispatchAction }) => {
 	return (
 		<article className={cn('ct-utils_flex', 'ct-utils_flex-column', 'ct-utils_pad-top-2')}>
-			<p className={cn('ct-utils_text-accent', 'ct-utils_uppercase')}>categories:</p>
+			<p className={cn('ct-utils_color-accent', 'ct-utils_uppercase')}>categories:</p>
 			<ol className={cn('ct-utils_flex', 'ct-utils_flex-column', 'ct-utils_pad-x-4', 'ct-utils_items-start')}>
 				{packages.map((pkg, i) => (
 					<CommandListButton key={i + 1} index={i + 1} pkgStuff={pkg} hoverClass={hoverClass} setTab={setTab} />

@@ -23,7 +23,7 @@ export const ProfileHubPopup = ({ open, setOpen }: Popup) => {
 	}
 	return (
 		<div className={cn(!open ? hideClass : 'ct-utils_bg-fade', 'ct-utils_absolute', 'ct-utils_h-full', 'ct-utils_w-full', 'ct-utils_top-0', 'ct-utils_left-0')}>
-			<div className={cn('ct-utils_absolute', 'ct-utils_top-20', 'ct-utils_left-quat', 'ct-utils_h-quat', 'ct-utils_w-half', 'ct-utils_bg-secondary', 'ct-utils_text-muted', 'ct-utils_rounded-lg', 'ct-utils_pad-4')}>
+			<div className={cn('ct-utils_absolute', 'ct-utils_top-20', 'ct-utils_left-quat', 'ct-utils_h-quat', 'ct-utils_w-half', 'ct-utils_bg-secondary', 'ct-utils_color-muted', 'ct-utils_rounded-lg', 'ct-utils_pad-4')}>
 				<article className={cn('ct-utils_flex', 'ct-utils_justify-between')}>
 					<PopupTitle title='Profile' />
 					<CloseButton setOpen={setOpen} />
