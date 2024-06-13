@@ -1,5 +1,13 @@
 # @ag108/command-terminal
 
+## 1.0.15
+
+### Patch Changes
+
+- 0966404: added dependencies.md
+- 0966404: tiny doc overhaul
+- 0966404: added flex to allow for gap in double CommandListButtons
+
 ## 1.0.14
 
 ### Patch Changes
