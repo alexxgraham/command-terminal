@@ -30,7 +30,7 @@ export const CommandMenuPopup = ({ open, setOpen }: Popup) => {
 	if (open) {
 		hideClass = '' as UtilClassValues;
 	}
-	const hoverCheatClass: UtilClassValues = ['ct-utils_flex', 'ct-utils_gap-x-2', 'ct-utils_hover underline', 'ct-utils_uppercase', 'ct-utils_outline-none'];
+	const hoverCheatClass: UtilClassValues = ['ct-utils_hover underline', 'ct-utils_uppercase', 'ct-utils_outline-none'];
 	return (
 		<div className={cn(!open ? hideClass : 'ct-utils_grid', 'ct-utils_place-items-center', 'ct-utils_bg-fade', 'ct-utils_absolute', 'ct-utils_h-full', 'ct-utils_w-full', 'ct-utils_top-0', 'ct-utils_left-0')}>
 			<div className={cn('ct-utils_h-15rem', 'ct-utils_w-half', 'ct-utils_bg-secondary', 'ct-utils_text-muted', 'ct-utils_rounded-lg', 'ct-utils_pad-4')}>
