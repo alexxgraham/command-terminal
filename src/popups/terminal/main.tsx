@@ -7,11 +7,6 @@ import { UtilClassValues } from '@ag108/ct-utils/types/styles';
 const cheatHoverClass: UtilClassValues = ['ct-utils_hover ct-utils_underline', 'ct-utils_uppercase', 'ct-utils_outline-none'];
 const packages: PackageItems[] = [
 	{
-		singleOpt: 'math',
-		kind: 'single',
-		utilityClass: [...cheatHoverClass, 'ct-utils_text-light_blue'],
-	},
-	{
 		doubleOpt: 'datetime',
 		doubleName: ['date', 'time'],
 		kind: 'double',
@@ -24,13 +19,18 @@ const packages: PackageItems[] = [
 		utilityClass: [...cheatHoverClass, 'ct-utils_text-red'],
 	},
 	{
-		name: 'txtpaint',
+		singleOpt: 'math',
+		kind: 'single',
+		utilityClass: [...cheatHoverClass, 'ct-utils_text-light_blue'],
+	},
+	{
+		multiOpt: 'txtpaint',
 		kind: 'multi',
 		utilityClass: [...cheatHoverClass, 'ct-utils_text-colors'],
 	},
 	{
 		doubleOpt: 'symbols',
-		doubleName: ['symbol', 'emoticon'],
+		doubleName: ['symbols', 'emoticons'],
 		kind: 'double',
 		utilityClass: [...cheatHoverClass, 'ct-utils_text-yellow'],
 	},
