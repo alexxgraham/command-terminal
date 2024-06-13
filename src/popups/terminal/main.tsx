@@ -24,8 +24,8 @@ const packages: PackageItems[] = [
 		kind: 'double',
 		singleClass: 'ct-utils_hidden',
 		doubleClass: {
-			main: ['ct-utils_cursor-pointer', 'ct-utils_gap-x-2'],
-			secondary: 'ct-utils_text-cyan',
+			main: ['ct-utils_cursor-pointer', 'ct-utils_flex', 'ct-utils_gap-x-2'],
+			secondary: ['ct-utils_hover', 'ct-utils_text-cyan'],
 		},
 		multiClass: {
 			main: 'ct-utils_hidden',
@@ -56,7 +56,7 @@ const packages: PackageItems[] = [
 		},
 		multiClass: {
 			main: 'ct-utils_cursor-pointer',
-			secondary: 'ct-utils_text-colors',
+			secondary: ['ct-utils_hover', 'ct-utils_text-colors'],
 		},
 	},
 	{
@@ -65,8 +65,8 @@ const packages: PackageItems[] = [
 		kind: 'double',
 		singleClass: 'ct-utils_hidden',
 		doubleClass: {
-			main: ['ct-utils_cursor-pointer', 'ct-utils_gap-x-2'],
-			secondary: 'ct-utils_text-yellow',
+			main: ['ct-utils_cursor-pointer', 'ct-utils_flex', 'ct-utils_gap-x-2'],
+			secondary: ['ct-utils_hover', 'ct-utils_text-yellow'],
 		},
 		multiClass: {
 			main: 'ct-utils_hidden',

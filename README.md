@@ -1,4 +1,3 @@
-
 # Command Terminal
 
 An all-in-one function library that returns simple plain text.
@@ -9,32 +8,23 @@ An all-in-one function library that returns simple plain text.
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
-
-## License
-
-[MIT](https://www.github.com/alexxgraham/command-terminal/blob/main/LICENSE.md)
-
-
 ## Contributing
-
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
 
 Please adhere to this project's `code of conduct`.
 
+See [contributing](https://www.github.com/alexxgraham/command-terminal/blob/main/contributing.md)` for ways to get started.
 
 ## Documentation
 
 [Documentation](https://www.github.com/alexxgraham/command-terminal/blob/main/docs.md)
 
-[Changelog](https://www.github.com/alexxgraham/command-terminal/blob/main/contributing.md)
+[Dependencies](https://www.github.com/alexxgraham/command-terminal/blob/main/dependencies.md)
 
+[Changelog](https://www.github.com/alexxgraham/command-terminal/blob/main/changelog.md)
 
 ## Authors
 
 - [@alexxgraham](https://www.github.com/alexxgraham)
-
 
 ## Installation
 

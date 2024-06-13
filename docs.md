@@ -3,12 +3,11 @@
 - Main Exports
 
 ```ts
-Terminal
+Terminal;
+IndexMain;
 
 // Popups
-CommandMenuPopup
-ProfileHubPopup
-SearchBarPopup
-
-IndexMain
+CommandMenuPopup;
+ProfileHubPopup;
+SearchBarPopup;
 ```
