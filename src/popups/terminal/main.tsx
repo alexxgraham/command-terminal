@@ -2,35 +2,37 @@ import { PackageItems } from '@ag108/ct-utils/types/main';
 import { TabDispatchAction } from '@ag108/ct-utils/types/dispatch';
 
 import { cn, CommandListButton } from '@ag108/ct-utils';
+import { UtilClassValues } from '@ag108/ct-utils/types/styles';
 
+const cheatHoverClass: UtilClassValues = ['ct-utils_hover ct-utils_underline', 'ct-utils_uppercase', 'ct-utils_outline-none'];
 const packages: PackageItems[] = [
 	{
 		singleOpt: 'math',
 		kind: 'single',
-		utilityClass: ['ct-utils_hover ct-utils_underline', 'ct-utils_text-light_blue'],
+		utilityClass: [...cheatHoverClass, 'ct-utils_text-light_blue'],
 	},
 	{
 		doubleOpt: 'datetime',
 		doubleName: ['date', 'time'],
 		kind: 'double',
-		utilityClass: ['ct-utils_hover ct-utils_underline', 'ct-utils_text-cyan'],
+		utilityClass: [...cheatHoverClass, 'ct-utils_text-cyan'],
 	},
 	{
 		name: 'attachments',
 		singleOpt: 'filesys',
 		kind: 'single',
-		utilityClass: ['ct-utils_hover ct-utils_underline', 'ct-utils_text-red'],
+		utilityClass: [...cheatHoverClass, 'ct-utils_text-red'],
 	},
 	{
 		name: 'txtpaint',
 		kind: 'multi',
-		utilityClass: ['ct-utils_hover ct-utils_underline', 'ct-utils_text-colors'],
+		utilityClass: [...cheatHoverClass, 'ct-utils_text-colors'],
 	},
 	{
 		doubleOpt: 'symbols',
 		doubleName: ['symbol', 'emoticon'],
 		kind: 'double',
-		utilityClass: ['ct-utils_hover ct-utils_underline', 'ct-utils_text-yellow'],
+		utilityClass: [...cheatHoverClass, 'ct-utils_text-yellow'],
 	},
 ];
 
