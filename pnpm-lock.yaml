@@ -9,23 +9,23 @@ importers:
   .:
     dependencies:
       '@ag108/ct-datetime_libs':
-        specifier: ^1.0.3
-        version: 1.0.3(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^1.0.4
+        version: 1.0.4(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@ag108/ct-filesys_libs':
-        specifier: ^1.0.3
-        version: 1.0.3(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^1.0.4
+        version: 1.0.4(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@ag108/ct-math_libs':
-        specifier: ^1.0.6
-        version: 1.0.6(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^1.0.7
+        version: 1.0.7(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@ag108/ct-symbols_libs':
-        specifier: ^1.0.3
-        version: 1.0.3(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^1.0.4
+        version: 1.0.4(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@ag108/ct-txtpaint_libs':
-        specifier: ^1.0.3
-        version: 1.0.3(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^1.0.4
+        version: 1.0.4(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@ag108/ct-utils':
-        specifier: ^1.0.21
-        version: 1.0.21(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^1.0.22
+        version: 1.0.22(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@types/node':
         specifier: ^20.14.2
         version: 20.14.2
@@ -57,33 +57,33 @@ importers:
 
 packages:
 
-  '@ag108/ct-datetime_libs@1.0.3':
-    resolution: {integrity: sha512-o3UQRgjnXMgmaPR44aODc2mM/BgMvWdOB3PuyeVWx/CjEoZjtTJ/asFxvzCQ4uhEz05gU5TlIBknzq4YMq5xlw==}
+  '@ag108/ct-datetime_libs@1.0.4':
+    resolution: {integrity: sha512-XV+AnK7YJKeq9mOyibCAsiT0ggwnWIU9i9POEdkAU9dAUNWMjdSJBm58hdzHGcJ6SFCom99Aw3iblHQdFvilZw==}
     peerDependencies:
       '@types/node': ^20.14.2
 
-  '@ag108/ct-filesys_libs@1.0.3':
-    resolution: {integrity: sha512-cbnXfUEEby6MLePkya3dOSDe+TNrUzq/Pm+bqBexwT+6+dP6mqTmCrrsD7gtcSTf5miawalEuJv33uJk17U5Zg==}
+  '@ag108/ct-filesys_libs@1.0.4':
+    resolution: {integrity: sha512-AkHvz0fDmc05p2kUGV+53G+5LCQFv6W2cCooR9NWgsY9bbvsjs9jKBt/MSRKKcTGbxOvADn5h6Y+6uk5H86S1A==}
     peerDependencies:
       '@types/node': ^20.14.2
 
-  '@ag108/ct-math_libs@1.0.6':
-    resolution: {integrity: sha512-iVm7cqJ4u+vnGkBjuM3smmka3jCMr+WR3/exhWEjEu9B5tJ29vWCfESeqLUEAG7cH0mea+FZnYUSdbC42WuzpQ==}
+  '@ag108/ct-math_libs@1.0.7':
+    resolution: {integrity: sha512-AbuWctOBVW8H4uvjfdd8WxgXJZPROZJjF4A/2Ls9SYOxMLyaF1/G56RtdQPUpMguPxj+VR+xdZT2VViiyWLdDQ==}
     peerDependencies:
       '@types/node': ^20.14.2
 
-  '@ag108/ct-symbols_libs@1.0.3':
-    resolution: {integrity: sha512-cZ9X3KjYTcwgf28vHHXY8rkdO5y3JDNk2Y8VvqdCJE/7HpqYDLzK7+6/6ZVUFh/jARfnST/DaKiMfd/dQ6q33A==}
+  '@ag108/ct-symbols_libs@1.0.4':
+    resolution: {integrity: sha512-4TKAwVf9gLwDrzU+Rt8mYuuuiSmsIbGbeRrgmMTq0ZCtsMPTt/BixuqENt8qUpGwkQhZ8YtjfzlgXbd5haiozw==}
     peerDependencies:
       '@types/node': ^20.14.2
 
-  '@ag108/ct-txtpaint_libs@1.0.3':
-    resolution: {integrity: sha512-15IeaYTZIDcG0G6p+EuVMZyDUDM6uTaiWCs/2rPFPbe1hPibTLNBX97GUEg3IhgeiH/SS1r8vti1CnxUeDXdSA==}
+  '@ag108/ct-txtpaint_libs@1.0.4':
+    resolution: {integrity: sha512-DcWNRt2KDPSBaW1nkYWMA5jDLzbTietk1PUzpM5TnondiWrsetst3slsuQI5OWr+dQkWnfscUTo6FCa3BbWjLQ==}
     peerDependencies:
       '@types/node': ^20.14.2
 
-  '@ag108/ct-utils@1.0.21':
-    resolution: {integrity: sha512-VTHlBCYEd6BZjTvPAMpWQtjtNzWQFeaqBY9aSo49t0bKhv0Z8WP3b4HlcyOoa+vjUTc8W0V5TmN4mUmcfqwysg==}
+  '@ag108/ct-utils@1.0.22':
+    resolution: {integrity: sha512-ydMp8JeQrqytW6LBGJWK0o5mW7g51Ma34A0GuzKYMn8iaRvYMfM0uie6tygDqyOqaSm8/PiUIibGwy+twobXYg==}
     peerDependencies:
       '@types/node': ^20.14.2
       react: ^18.3.1
@@ -1741,47 +1741,47 @@ packages:
 
 snapshots:
 
-  '@ag108/ct-datetime_libs@1.0.3(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@ag108/ct-datetime_libs@1.0.4(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@ag108/ct-utils': 1.0.21(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@ag108/ct-utils': 1.0.22(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@types/node': 20.14.2
     transitivePeerDependencies:
       - react
       - react-dom
 
-  '@ag108/ct-filesys_libs@1.0.3(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@ag108/ct-filesys_libs@1.0.4(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@ag108/ct-utils': 1.0.21(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@ag108/ct-utils': 1.0.22(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@types/node': 20.14.2
     transitivePeerDependencies:
       - react
       - react-dom
 
-  '@ag108/ct-math_libs@1.0.6(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@ag108/ct-math_libs@1.0.7(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@ag108/ct-utils': 1.0.21(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@ag108/ct-utils': 1.0.22(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@types/node': 20.14.2
     transitivePeerDependencies:
       - react
       - react-dom
 
-  '@ag108/ct-symbols_libs@1.0.3(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@ag108/ct-symbols_libs@1.0.4(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@ag108/ct-utils': 1.0.21(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@ag108/ct-utils': 1.0.22(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@types/node': 20.14.2
     transitivePeerDependencies:
       - react
       - react-dom
 
-  '@ag108/ct-txtpaint_libs@1.0.3(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@ag108/ct-txtpaint_libs@1.0.4(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@ag108/ct-utils': 1.0.21(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@ag108/ct-utils': 1.0.22(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@types/node': 20.14.2
     transitivePeerDependencies:
       - react
       - react-dom
 
-  '@ag108/ct-utils@1.0.21(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@ag108/ct-utils@1.0.22(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@types/node': 20.14.2
       clsx: 2.1.1

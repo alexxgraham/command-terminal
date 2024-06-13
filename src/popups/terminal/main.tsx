@@ -8,7 +8,7 @@ const packages: PackageItems[] = [
 	{
 		singleOpt: 'math',
 		kind: 'single',
-		singleClass: 'text-light_blue',
+		singleClass: 'ct-utils_text-light_blue',
 		doubleClass: {
 			main: 'ct-utils_hidden',
 			secondary: 'ct-utils_hidden',
@@ -24,7 +24,7 @@ const packages: PackageItems[] = [
 		kind: 'double',
 		singleClass: 'ct-utils_hidden',
 		doubleClass: {
-			main: 'text-cyan',
+			main: 'ct-utils_text-cyan',
 			secondary: 'ct-utils_cursor-pointer',
 		},
 		multiClass: {
@@ -36,7 +36,7 @@ const packages: PackageItems[] = [
 		name: 'attachments',
 		singleOpt: 'filesys',
 		kind: 'single',
-		singleClass: 'text-red',
+		singleClass: 'ct-utils_text-red',
 		doubleClass: {
 			main: 'ct-utils_hidden',
 			secondary: 'ct-utils_hidden',
@@ -55,7 +55,7 @@ const packages: PackageItems[] = [
 			secondary: 'ct-utils_hidden',
 		},
 		multiClass: {
-			main: 'text-colors',
+			main: 'ct-utils_text-colors',
 			secondary: 'ct-utils_cursor-pointer',
 		},
 	},
@@ -65,7 +65,7 @@ const packages: PackageItems[] = [
 		kind: 'double',
 		singleClass: 'ct-utils_hidden',
 		doubleClass: {
-			main: 'text-yellow',
+			main: 'ct-utils_text-yellow',
 			secondary: 'ct-utils_cursor-pointer',
 		},
 		multiClass: {
