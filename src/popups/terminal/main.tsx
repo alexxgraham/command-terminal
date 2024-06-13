@@ -55,7 +55,7 @@ const packages: PackageItems[] = [
 			secondary: 'ct-utils_hidden',
 		},
 		multiClass: {
-			main: 'ct-utils_hover text-red',
+			main: 'ct-utils_hover text-colors',
 			secondary: 'ct-utils_cursor-pointer',
 		},
 	},
