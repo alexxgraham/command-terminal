@@ -1,5 +1,11 @@
 # @ag108/command-terminal
 
+## 1.0.14
+
+### Patch Changes
+
+- f942507: main menu adjustments, broken hover cursors & gap between '&' should be fixed
+
 ## 1.0.13
 
 ### Patch Changes
