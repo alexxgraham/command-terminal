@@ -1,5 +1,12 @@
 # @ag108/command-terminal
 
+## 1.0.10
+
+### Patch Changes
+
+- b8c0c20: some missing and conflicting tw/ct-utils classes
+- d6d6081: fixed conflicting tailwind classes with IndexMain classes for lts of ct-util classes
+
 ## 1.0.9
 
 ### Patch Changes
