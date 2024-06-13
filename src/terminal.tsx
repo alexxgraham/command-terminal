@@ -3,7 +3,7 @@ import { CommandMenu, ProfileHub, SearchBar } from './items/_main.itm';
 
 export const Terminal = () => {
 	return (
-		<section className={cn('ct-utils_shrink-0', 'ct-utils_bg-secondary', 'ct-utils_w-15rem', 'ct-utils_h-2-5rem', 'ct-utils_rounded-3xl', 'ct-utils_flex', 'ct-utils_justify-center', 'ct-utils_items-center', 'ct-utils_gap-6')}>
+		<section className={cn('ct-utils_shrink-0', 'ct-utils_bg-secondary', 'ct-utils_w-15rem', 'ct-utils_h-3rem', 'ct-utils_rounded-3xl', 'ct-utils_flex', 'ct-utils_justify-center', 'ct-utils_items-center', 'ct-utils_gap-6')}>
 			<CommandMenu />
 			<ProfileHub />
 			<SearchBar />
