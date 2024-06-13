@@ -1,5 +1,11 @@
 # @ag108/command-terminal
 
+## 1.0.17
+
+### Patch Changes
+
+- b5bba31: fixed broken cmd-menu.pup (removed hoverClass prop)
+
 ## 1.0.16
 
 ### Patch Changes
