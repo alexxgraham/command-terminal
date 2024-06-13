@@ -1,5 +1,11 @@
 # @ag108/command-terminal
 
+## 1.0.11
+
+### Patch Changes
+
+- e68370c: fixed a few components to have correct ct-utils\_ prefix before classnames
+
 ## 1.0.10
 
 ### Patch Changes
