@@ -1,5 +1,12 @@
 # @ag108/command-terminal
 
+## 1.0.19
+
+### Patch Changes
+
+- fce00f4: updated ct-utils dependency to lts version, minor conflicts preventing publish of last commit
+- 4d6f030: set terminal theme to a1
+
 ## 1.0.18
 
 ### Patch Changes
