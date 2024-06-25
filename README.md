@@ -1,6 +1,6 @@
 # Command Terminal
 
-An all-in-one function library that returns simple plain text.
+An all-in-one functional component.
 
 ![NPM Version](https://img.shields.io/npm/v/%40ag108%2Fcommand-terminal)
 
@@ -12,7 +12,7 @@ An all-in-one function library that returns simple plain text.
 
 Please adhere to this project's `code of conduct`.
 
-See [contributing](https://www.github.com/alexxgraham/command-terminal/blob/main/contributing.md)` for ways to get started.
+See `contributing.md` for ways to get started.
 
 ## Documentation
 

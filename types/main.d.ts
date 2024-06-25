@@ -1,4 +1,4 @@
-import { UtilClassValues } from '@ag108/ct-utils/types/styles';
+import { DispatchAction } from '@ag108/ct-utils/types/dispatch';
 
 export interface Popup {
 	open: boolean;

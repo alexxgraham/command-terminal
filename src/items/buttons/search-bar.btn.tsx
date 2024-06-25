@@ -3,8 +3,9 @@ import { useEffect, useState } from 'react';
 import { DrawerMagGlassIcon } from '../icons/_main.icn';
 import { SearchBarPopup } from '~/popups/_main.pup';
 import { cn } from '@ag108/ct-utils';
+import { TerminalProps } from 'types/terminal';
 
-export const SearchBar = () => {
+export const SearchBar = ({ theme_a1, theme_v1, theme_v2, theme_uppercase, theme_capitalize, theme_lowercase, theme_roundness, datetime_pack, filesys_pack, math_pack, symbols_pack, txtpaint_pack }: TerminalProps) => {
 	const [open, setOpen] = useState(false);
 	useEffect(() => {
 		const down = (e: KeyboardEvent) => {

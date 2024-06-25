@@ -3,10 +3,11 @@ import { UtilClassValues } from '@ag108/ct-utils/types/styles';
 import { useEffect } from 'react';
 
 import { Popup } from 'types/main';
+import { TerminalProps } from 'types/terminal';
 
 import { CloseButton, TextInput } from '~/items/_main.itm';
 
-export const SearchBarPopup = ({ open, setOpen }: Popup) => {
+export const SearchBarPopup = ({ open, setOpen, theme_a1, theme_v1, theme_v2, theme_uppercase, theme_capitalize, theme_lowercase, theme_roundness, datetime_pack, filesys_pack, math_pack, symbols_pack, txtpaint_pack }: Popup & TerminalProps) => {
 	useEffect(() => {
 		const down = (e: KeyboardEvent) => {
 			if (e.key === 'Escape') {

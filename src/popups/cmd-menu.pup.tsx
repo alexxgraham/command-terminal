@@ -13,8 +13,9 @@ import { Popup } from 'types/main';
 import { IndexMain } from '~/popups/terminal/main';
 import { CloseButton, TextInput } from '~/items/_main.itm';
 import { UtilClassValues } from '@ag108/ct-utils/types/styles';
+import { TerminalProps } from 'types/terminal';
 
-export const CommandMenuPopup = ({ open, setOpen }: Popup) => {
+export const CommandMenuPopup = ({ open, setOpen, theme_a1, theme_v1, theme_v2, theme_uppercase, theme_capitalize, theme_lowercase, theme_roundness, datetime_pack, filesys_pack, math_pack, symbols_pack, txtpaint_pack }: Popup & TerminalProps) => {
 	const [tab, setTab] = useState(MainState);
 	useEffect(() => {
 		const down = (e: KeyboardEvent) => {
@@ -40,42 +41,42 @@ export const CommandMenuPopup = ({ open, setOpen }: Popup) => {
 				<span className={cn('ct-utils_h-p125rem', 'ct-utils_w-full', 'ct-utils_bg-muted', 'ct-utils_block', 'ct-utils_rounded-md')} />
 				{tab.main ? <IndexMain setTab={setTab} /> : null}
 
-				{tab.math.index ? <IndexMath setTab={setTab} /> : null}
-				{tab.math.chain ? <Chain setTab={setTab} /> : null}
-				{tab.math.arithmetic ? <Arithmetic setTab={setTab} /> : null}
-				{tab.math.geometry ? <Geometry setTab={setTab} /> : null}
-				{tab.math.algebra ? <Algebra setTab={setTab} /> : null}
-				{tab.math.calculus ? <Calculus setTab={setTab} /> : null}
-				{tab.math.matrix ? <Matrix setTab={setTab} /> : null}
-				{tab.math.algorithm ? <Algorithm setTab={setTab} /> : null}
+				{datetime_pack && tab.time.index ? <IndexDatetime setTab={setTab} /> : null}
+				{datetime_pack && tab.time.relative ? <Relative setTab={setTab} /> : null}
+				{datetime_pack && tab.time.absolute ? <Absolute setTab={setTab} /> : null}
+				{datetime_pack && tab.time.special ? <Special setTab={setTab} /> : null}
+				{datetime_pack && tab.time.custom ? <Custom setTab={setTab} /> : null}
 
-				{tab.time.index ? <IndexDatetime setTab={setTab} /> : null}
-				{tab.time.relative ? <Relative setTab={setTab} /> : null}
-				{tab.time.absolute ? <Absolute setTab={setTab} /> : null}
-				{tab.time.special ? <Special setTab={setTab} /> : null}
-				{tab.time.custom ? <Custom setTab={setTab} /> : null}
+				{filesys_pack && tab.file.index ? <IndexFilesys setTab={setTab} /> : null}
+				{filesys_pack && tab.file.image ? <Image setTab={setTab} /> : null}
+				{filesys_pack && tab.file.pdf ? <Pdf setTab={setTab} /> : null}
+				{filesys_pack && tab.file.other ? <Other setTab={setTab} /> : null}
 
-				{tab.file.index ? <IndexFilesys setTab={setTab} /> : null}
-				{tab.file.image ? <Image setTab={setTab} /> : null}
-				{tab.file.pdf ? <Pdf setTab={setTab} /> : null}
-				{tab.file.other ? <Other setTab={setTab} /> : null}
+				{math_pack && tab.math.index ? <IndexMath setTab={setTab} /> : null}
+				{math_pack && tab.math.chain ? <Chain setTab={setTab} /> : null}
+				{math_pack && tab.math.arithmetic ? <Arithmetic setTab={setTab} /> : null}
+				{math_pack && tab.math.geometry ? <Geometry setTab={setTab} /> : null}
+				{math_pack && tab.math.algebra ? <Algebra setTab={setTab} /> : null}
+				{math_pack && tab.math.calculus ? <Calculus setTab={setTab} /> : null}
+				{math_pack && tab.math.matrix ? <Matrix setTab={setTab} /> : null}
+				{math_pack && tab.math.algorithm ? <Algorithm setTab={setTab} /> : null}
 
-				{tab.paint.index ? <IndexPaint setTab={setTab} /> : null}
-				{tab.paint.red ? <Red setTab={setTab} /> : null}
-				{tab.paint.blue ? <Blue setTab={setTab} /> : null}
-				{tab.paint.green ? <Green setTab={setTab} /> : null}
-				{tab.paint.yellow ? <Yellow setTab={setTab} /> : null}
-				{tab.paint.magenta ? <Magenta setTab={setTab} /> : null}
-				{tab.paint.cyan ? <Cyan setTab={setTab} /> : null}
+				{symbols_pack && tab.emote.index ? <IndexEmote setTab={setTab} /> : null}
+				{symbols_pack && tab.emote.faces ? <Faces setTab={setTab} /> : null}
+				{symbols_pack && tab.emote.foodBev ? <FoodAndBev setTab={setTab} /> : null}
+				{symbols_pack && tab.emote.nature ? <Nature setTab={setTab} /> : null}
+				{symbols_pack && tab.emote.objects ? <Objects setTab={setTab} /> : null}
+				{symbols_pack && tab.emote.hearts ? <Hearts setTab={setTab} /> : null}
+				{symbols_pack && tab.emote.flags ? <Flags setTab={setTab} /> : null}
+				{symbols_pack && tab.emote.moreSymbols ? <MoreText setTab={setTab} /> : null}
 
-				{tab.emote.index ? <IndexEmote setTab={setTab} /> : null}
-				{tab.emote.faces ? <Faces setTab={setTab} /> : null}
-				{tab.emote.foodBev ? <FoodAndBev setTab={setTab} /> : null}
-				{tab.emote.nature ? <Nature setTab={setTab} /> : null}
-				{tab.emote.objects ? <Objects setTab={setTab} /> : null}
-				{tab.emote.hearts ? <Hearts setTab={setTab} /> : null}
-				{tab.emote.flags ? <Flags setTab={setTab} /> : null}
-				{tab.emote.moreSymbols ? <MoreText setTab={setTab} /> : null}
+				{txtpaint_pack && tab.paint.index ? <IndexPaint setTab={setTab} /> : null}
+				{txtpaint_pack && tab.paint.red ? <Red setTab={setTab} /> : null}
+				{txtpaint_pack && tab.paint.blue ? <Blue setTab={setTab} /> : null}
+				{txtpaint_pack && tab.paint.green ? <Green setTab={setTab} /> : null}
+				{txtpaint_pack && tab.paint.yellow ? <Yellow setTab={setTab} /> : null}
+				{txtpaint_pack && tab.paint.magenta ? <Magenta setTab={setTab} /> : null}
+				{txtpaint_pack && tab.paint.cyan ? <Cyan setTab={setTab} /> : null}
 			</div>
 		</div>
 	);

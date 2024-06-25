@@ -4,6 +4,7 @@
 		"jsx": "react-jsx",
 		"module": "commonjs",
 		"noEmit": true,
+		"isolatedModules": true,
 		"esModuleInterop": true,
 		"strict": true,
 		"noUncheckedIndexedAccess": true,
