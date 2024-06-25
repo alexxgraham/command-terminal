@@ -1,5 +1,11 @@
 # @ag108/command-terminal
 
+## 1.0.21
+
+### Patch Changes
+
+- 252d79a: updated to latest version of ct-utils for future font support
+
 ## 1.0.20
 
 ### Patch Changes
