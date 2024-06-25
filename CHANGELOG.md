@@ -1,5 +1,11 @@
 # @ag108/command-terminal
 
+## 1.0.20
+
+### Patch Changes
+
+- 35315a6: added terminal options
+
 ## 1.0.19
 
 ### Patch Changes
