@@ -1,5 +1,11 @@
 # @ag108/command-terminal
 
+## 1.0.23
+
+### Patch Changes
+
+- fff272f: added z-index options to popups
+
 ## 1.0.22
 
 ### Patch Changes
