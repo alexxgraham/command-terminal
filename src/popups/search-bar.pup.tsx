@@ -24,8 +24,8 @@ export const SearchBarPopup = ({ open, setOpen, z_index, theme_a1, theme_v1, the
 		hideClass = '' as UtilClassValues;
 	}
 	return (
-		<div className={cn(getZ(z_index), !open ? hideClass : 'ct-utils_bg-fade', 'ct-utils_absolute', 'ct-utils_h-full', 'ct-utils_w-full', 'ct-utils_top-0', 'ct-utils_left-0')}>
-			<div className={cn('ct-utils_absolute', 'ct-utils_flex', 'ct-utils_items-center', 'ct-utils_justify-between', 'ct-utils_top-20', 'ct-utils_left-quat', 'ct-utils_h-2-5rem', 'ct-utils_w-half', 'ct-utils_bg-secondary', 'ct-utils_color-muted', 'ct-utils_rounded-lg', 'ct-utils_pad-x-4')}>
+		<div className={cn(!open ? hideClass : 'ct-utils_bg-fade', 'ct-utils_absolute', 'ct-utils_h-full', 'ct-utils_w-full', 'ct-utils_top-0', 'ct-utils_left-0')}>
+			<div className={cn(getZ(z_index), 'ct-utils_absolute', 'ct-utils_flex', 'ct-utils_items-center', 'ct-utils_justify-between', 'ct-utils_top-20', 'ct-utils_left-quat', 'ct-utils_h-2-5rem', 'ct-utils_w-half', 'ct-utils_bg-secondary', 'ct-utils_color-muted', 'ct-utils_rounded-lg', 'ct-utils_pad-x-4')}>
 				<TextInput autoFocus placeholder='Search conversation keywords...' />
 				<CloseButton setOpen={setOpen} />
 			</div>

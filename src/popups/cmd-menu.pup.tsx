@@ -33,8 +33,8 @@ export const CommandMenuPopup = ({ open, setOpen, z_index, theme_a1, theme_v1, t
 		hideClass = '' as UtilClassValues;
 	}
 	return (
-		<div className={cn(getZ(z_index), !open ? hideClass : 'ct-utils_grid', 'ct-utils_place-items-center', 'ct-utils_bg-fade', 'ct-utils_absolute', 'ct-utils_h-full', 'ct-utils_w-full', 'ct-utils_top-0', 'ct-utils_left-0')}>
-			<div className={cn('ct-utils_h-15rem', 'ct-utils_w-half', 'ct-utils_bg-secondary', 'ct-utils_color-muted', 'ct-utils_rounded-lg', 'ct-utils_pad-4')}>
+		<div className={cn(!open ? hideClass : 'ct-utils_grid', 'ct-utils_place-items-center', 'ct-utils_bg-fade', 'ct-utils_absolute', 'ct-utils_h-full', 'ct-utils_w-full', 'ct-utils_top-0', 'ct-utils_left-0')}>
+			<div className={cn(getZ(z_index), 'ct-utils_h-15rem', 'ct-utils_w-half', 'ct-utils_bg-secondary', 'ct-utils_color-muted', 'ct-utils_rounded-lg', 'ct-utils_pad-4')}>
 				<article className={cn('ct-utils_w-full', 'ct-utils_flex', 'ct-utils_justify-between', 'ct-utils_gap-6')}>
 					<TextInput autoFocus placeholder='Search for commands...' />
 					<CloseButton setOpen={setOpen} />
