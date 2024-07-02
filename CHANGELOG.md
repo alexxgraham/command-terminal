@@ -1,5 +1,11 @@
 # @ag108/command-terminal
 
+## 1.0.25
+
+### Patch Changes
+
+- 259d9d9: replaced getZ class function for z-index in popups to be on second divs
+
 ## 1.0.24
 
 ### Patch Changes
