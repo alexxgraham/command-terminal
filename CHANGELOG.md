@@ -1,5 +1,12 @@
 # @ag108/command-terminal
 
+## 1.0.26
+
+### Patch Changes
+
+- 1a2883c: updated to latest ct-utils
+- 980c8fe: separated root and modal z-index styling to allow for more granular control
+
 ## 1.0.25
 
 ### Patch Changes
