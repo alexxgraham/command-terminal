@@ -1,7 +1,8 @@
 export type Z_INDEX = -50 | -40 | -30 | -20 | -10 | 0 | 10 | 20 | 30 | 40 | 50;
 
 export interface TerminalProps {
-	z_index?: Z_INDEX;
+	root_z_index?: Z_INDEX;
+	modal_z_index?: Z_INDEX;
 
 	theme_a1?: boolean;
 	theme_v1?: boolean;
