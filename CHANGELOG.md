@@ -1,5 +1,12 @@
 # @ag108/command-terminal
 
+## 1.0.22
+
+### Patch Changes
+
+- 65a1d19: added z_index option
+- 65a1d19: added z-index styling classes
+
 ## 1.0.21
 
 ### Patch Changes
