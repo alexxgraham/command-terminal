@@ -1,5 +1,11 @@
 # @ag108/command-terminal
 
+## 1.0.24
+
+### Patch Changes
+
+- e3af140: fixed z-index classes not loading for popups
+
 ## 1.0.23
 
 ### Patch Changes
